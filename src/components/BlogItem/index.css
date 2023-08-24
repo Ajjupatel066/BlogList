@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+.list-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.role-date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.role {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #12022f;
+}
+
+.publishedDate {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #9aa5b1;
+}
+.description {
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #9aa5b1;
+}
+
+.hr-line {
+  width: 100%;
+  color: #9aa5b1;
+  height: 2px;
+}
